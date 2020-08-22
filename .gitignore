@@ -1,5 +1,7 @@
 .vscode/
 
 TestNinja/obj/
+TestNinja.Test/obj/
 
 TestNinja/bin/
+TestNinja.Test/bin/
