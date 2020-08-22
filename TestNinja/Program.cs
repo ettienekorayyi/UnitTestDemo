@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace UnitTestDemo
+namespace TestNinja
 {
     class Program
     {
