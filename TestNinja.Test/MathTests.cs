@@ -4,6 +4,7 @@ using TestNinja.Fundamentals;
 namespace TestNinja.Test
 {
     [TestFixture]
+    [Ignore("Ignore the Math fixture")]
     public class MathTests
     {
         private Math _math;
@@ -38,9 +39,8 @@ namespace TestNinja.Test
         [Test]
         public void GetOddNumbers_WhenCalled_ReturnOddNumbers()
         {
-            int[] oddNumbers = new int[] { 1,3,5,7,9 };
             var result = _math.GetOddNumbers(10);
-            Assert.That(result, Is.EquivalentTo(oddNumbers));
+            Assert.That(result, Is.EquivalentTo(new int[] { 1,3,5,7,9 }));
         }
 
     }

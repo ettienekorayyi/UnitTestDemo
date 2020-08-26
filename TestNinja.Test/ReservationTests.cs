@@ -5,6 +5,7 @@ using TestNinja.Fundamentals;
 namespace TestNinja.Test
 {
     [TestFixture]
+    [Ignore("Ignore the Reservation fixture")]
     public class ReservationTests
     {
         [Test]
